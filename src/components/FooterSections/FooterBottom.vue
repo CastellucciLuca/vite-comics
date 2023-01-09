@@ -32,7 +32,7 @@
 
 <style lang="scss" scoped>
 section#bottom-footer {
-    background-color: black;
+    background-color: #303030;
     padding: 2rem;
 }
 a {
