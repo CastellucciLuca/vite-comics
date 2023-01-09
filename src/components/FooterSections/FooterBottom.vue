@@ -4,7 +4,7 @@
 <template>
     <section id="bottom-footer">
         <div class="container-wrapped d-flex flex-between">
-            <a href="#">SIGN-UP NOW!</a>
+            <button>SIGN-UP NOW!</button>
             <div class="social-btn d-flex align-center">
                 <h3>FOLLOW US</h3>
                 <ul>
@@ -35,12 +35,17 @@ section#bottom-footer {
     background-color: #303030;
     padding: 2rem;
 }
-a {
-    font-size: 1.8rem;
+button {
+    color: white;
+    font-size: 1.2rem;
+    background-color: #303030;
+    border: 2px solid #0681f3;
+    padding: 0.8rem;
 }
 div.social-btn {
     h3 {
-        color: white;
+        color: #0681f3;
+        margin-top: 0.8rem;
     }
     ul {
         display: flex;
@@ -49,6 +54,7 @@ div.social-btn {
             padding: 0 .5rem;
             a img {
                 vertical-align: middle;
+                margin-top: 0.4rem;
             }
         }
     }

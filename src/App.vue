@@ -30,7 +30,6 @@ export default {
 @use './styles/partials/variables' as *;
 div.container-wrapped {
   width: 80%;
-  border: 1px solid green;
   margin: 0 auto;
 }
 .d-flex {
