@@ -9,11 +9,13 @@ export default {
 
 <template>
     <main>
-            <section id="jumbotron" class="d-flex align-center">
-                <h2> Content Goes Here </h2>
-            </section>
+        <section id="jumbotron">
+            <div class="container-wrapped">
+                <h2> --> Content Here {{'<--'}} </h2>
+            </div>
+        </section>
             <!--BONUS SECTION-->
-            <BlueSpot/>
+        <BlueSpot/>
     </main>
 </template>
 
@@ -23,7 +25,6 @@ main{
     width: 100%;
 }
 section#jumbotron {
-    height: 205px;
     background-color: black;
     color: white;
     padding: 2rem;

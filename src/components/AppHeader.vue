@@ -81,6 +81,7 @@ export default {
 @use '../styles/partials/variables.scss' as *;
 header {
     width: 100%;
+    background-color: white;
 }
 div.container-wrapped {
     align-items: stretch;
