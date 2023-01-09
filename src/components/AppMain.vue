@@ -9,7 +9,7 @@ export default {
 
 <template>
     <main>
-            <section id="jumbotron">
+            <section id="jumbotron" class="d-flex align-center">
                 <h2> Content Goes Here </h2>
             </section>
             <!--BONUS SECTION-->
@@ -23,6 +23,7 @@ main{
     width: 100%;
 }
 section#jumbotron {
+    height: 205px;
     background-color: black;
     color: white;
     padding: 2rem;
