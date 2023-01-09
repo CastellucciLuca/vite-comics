@@ -31,8 +31,9 @@
 
 
 <style lang="scss" scoped>
+@use '../../styles/partials/variables.scss' as *;
 section#bottom-footer {
-    background-color: #303030;
+    background-color: $footer-bg;
     padding: 2rem;
 }
 button {
@@ -41,20 +42,34 @@ button {
     background-color: #303030;
     border: 2px solid #0681f3;
     padding: 0.8rem;
+    &:hover {
+        color: white;
+        background-color: $dc-color;
+    }
 }
+
 div.social-btn {
     h3 {
-        color: #0681f3;
+        color: $dc-color;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        margin-right: 1rem;
+        font-weight: bold;
         margin-top: 0.8rem;
     }
     ul {
         display: flex;
+        margin-top: 0.4rem;
         li {
             list-style-type: none;
-            padding: 0 .5rem;
+            padding: 0 .7rem;
             a img {
+                transform: scale(1.2);
                 vertical-align: middle;
-                margin-top: 0.4rem;
+                &:hover {
+                    transition: all .2s ease-in-out;
+                    transform: scale(1);
+                }
             }
         }
     }

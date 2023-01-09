@@ -86,28 +86,29 @@ header {
 img {
     height: 80%;
 }
-nav {
-    height: 100%;
-}
-ul {
+nav ul {
     display: flex;
-    height: 100%;
+    align-items: stretch;
+    margin-top: 2.5rem;
     li {
         list-style-type: none;
         height: 100%;
         padding: 0 1rem;
-        margin-top: 2.5rem;
         a {
             text-decoration: none;
             text-transform: uppercase;
             font-weight: 700;
             font-size: .9rem;
             color: black;
+            &:hover {
+                color: $dc-color;
+            }
         }
     }
-}
-.active a {
-    color: $nav-active-txt;
-    border-bottom: 5px solid $nav-active-txt;
+    .active a {
+        padding-bottom: 3.4rem;
+        color: $dc-color;
+        border-bottom: 6px solid $dc-color;
+    }
 }
 </style>
