@@ -62,12 +62,12 @@ export default {
 <template>
     <header>
 
-        <div class="container-wrapped d-flex flex-between align-center">
+        <div class="container-wrapped d-flex flex-between">
             <img src="../assets/dc-logo.png" alt="DC Main Logo">
 
             <nav>
                 <ul>
-                    <li v-for="item in navItems" :class="(item.active) ? 'active' : ''">
+                    <li v-for="item in navItems" :class="(item.active) ? 'active' : ''" class="d-flex align-center">
                         <a :href="item.url">{{ item.text }}</a>
                     </li>
                 </ul>
@@ -81,10 +81,13 @@ export default {
 @use '../styles/partials/variables.scss' as *;
 header {
     width: 100%;
-    padding: 1rem 0;
+}
+div.container-wrapped {
+    align-items: stretch;
 }
 img {
-    height: 80%;
+    height: 70%;
+    padding: 0 1rem;
 }
 nav ul {
     display: flex;
