@@ -58,13 +58,10 @@ export default {
     }
 }
 </script>
-
 <template>
     <header>
-
         <div class="container-wrapped d-flex flex-between">
             <img src="../assets/dc-logo.png" alt="DC Main Logo">
-
             <nav>
                 <ul>
                     <li v-for="item in navItems" :class="(item.active) ? 'active' : ''" class="d-flex align-center">
@@ -73,10 +70,8 @@ export default {
                 </ul>
             </nav>
         </div>
-
     </header>
 </template>
-
 <style lang="scss" scoped>
 @use '../styles/partials/variables.scss' as *;
 header {

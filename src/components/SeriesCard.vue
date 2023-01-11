@@ -7,7 +7,6 @@ export default {
     ]
 }
 </script>
-
 <template>
     <article class="series-card">
         <div class="thum-container">
@@ -22,8 +21,6 @@ export default {
         <h4>{{ srSeries }}</h4>
     </article>
 </template>
-
-
 <style lang="scss">
 @use '../styles/partials/variables' as *;
 article {

@@ -8,7 +8,6 @@ export default {
     }
 } 
 </script>
-
 <template>
     <footer>
         <!-- Import Top Footer Section -->
@@ -17,7 +16,5 @@ export default {
         <FooterBottom />
     </footer>
 </template>
-
-
 <style lang="scss" scoped>
 </style>

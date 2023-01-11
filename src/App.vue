@@ -16,13 +16,10 @@ export default {
 <template>
   <!-- Import Header -->
   <AppHeader />
-
   <!-- Import Main -->
   <AppMain />
-
   <!-- Import Footer-->
   <AppFooter />
-
 </template>
 
 <style lang="scss">
